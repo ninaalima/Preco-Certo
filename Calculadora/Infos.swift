@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class Infos {
+var salario: Int //= 0
+var horas: Int //= 0
+
+init(salario: Int, horas: Int) {
+    self.salario = salario
+    self.horas = salario
+}
+}
